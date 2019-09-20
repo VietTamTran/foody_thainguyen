@@ -6,7 +6,7 @@
 		//Hàm kết nối.
 		public function __construct()
 		{
-			$this->conn = new mysqli("localhost", "root", "", "foody_thainguyen") or die("Loi ket noi");
+			$this->conn = new mysqli("localhost", "tamtit", "12345", "foody_thainguyen") or die("Loi ket noi");
 			$this->conn->set_charset("UTF8");
 		}
 
